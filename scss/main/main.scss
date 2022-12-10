@@ -5,6 +5,20 @@
         a {
             color: $red;
         }
+
+        .header {
+            font-family: Marmelad-Regular;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 24;
+        }
+
+        .headerNew {
+            font-family: Raleway;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 24;
+        }
     }
 }
 
@@ -15,6 +29,19 @@
         a {
             color: $red;
         }
+        .header {
+            font-family: Marmelad;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 24px;
+        }
+
+        .headerNew {
+            font-family: Raleway;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 24px;
+        }
     }
 }
 
@@ -24,6 +51,20 @@
     
         a {
             color: $red;
+        }
+
+        .header {
+            font-family: Marmelad-Regular;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 24;
+        }
+
+        .headerNew {
+            font-family: Raleway;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 24;
         }
     }
 }
