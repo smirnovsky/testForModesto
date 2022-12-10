@@ -1,26 +1,19 @@
-@media (max-width: $breakpoint-desktop) {
+@include desktop {
     footer {
-        background-color: yellow;
+        background-color: $background-footer;
         
     }
 }
 
-@media (max-width: $breakpoint-tablet) {
+@include tablet {
     footer {
-        background-color: green;
-    
-        a {
-            color: $red;
-        }
+        background-color: $background-footer;
     }
 }
 
-@media (max-width: $breakpoint-mobile) {
+@include mobile {
     footer {
-        background-color: grey;
+        background-color: $background-footer;
     
-        a {
-            color: $red;
-        }
     }
 }

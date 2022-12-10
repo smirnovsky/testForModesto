@@ -1,13 +1,10 @@
+
 @media (max-width: $breakpoint-desktop) {
     .main {
-        background-color: rgb(30, 30, 147);
-    
-        a {
-            color: $red;
-        }
+        background-color: $background-main;
 
         .header {
-            font-family: Marmelad-Regular;
+            font-family: Marmelad;
             font-style: normal;
             font-weight: 400;
             font-size: 24;
@@ -24,16 +21,13 @@
 
 @media (max-width: $breakpoint-tablet) {
     .main {
-        background-color: rgb(14, 62, 14);
-    
-        a {
-            color: $red;
-        }
+        background-color: $background-main;
+
         .header {
             font-family: Marmelad;
             font-style: normal;
             font-weight: 400;
-            font-size: 24px;
+            font-size: 24;
         }
 
         .headerNew {
@@ -47,14 +41,12 @@
 
 @media (max-width: $breakpoint-mobile) {
     .main {
-        background-color: rgb(44, 42, 42);
+        background-color: $background-main;
+        padding: 20px;
     
-        a {
-            color: $red;
-        }
 
         .header {
-            font-family: Marmelad-Regular;
+            font-family: Marmelad;
             font-style: normal;
             font-weight: 400;
             font-size: 24;

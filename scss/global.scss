@@ -1,8 +1,19 @@
 * {
     margin: 0;
 
-    font-family: Raleway;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 24;
+    text-decoration: none;
 }
+
+a {
+    color: black
+}
+
+button {
+    border: 0;
+}
+
+input {
+    border: 0;
+    background-color: $form-yellow;
+}
+

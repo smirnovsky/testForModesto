@@ -1,29 +1,26 @@
 @media (max-width: $breakpoint-desktop) {
-    .form {
-        background-color: blue;
-    
-        a {
-            color: $red;
-        }
+
+
+    .hide {
+        display: none;
     }
 }
 
 @media (max-width: $breakpoint-tablet) {
-    .form {
-        background-color: pink;
-    
-        a {
-            color: $red;
-        }
+
+
+    .hide {
+        display: none;
     }
 }
 
 @media (max-width: $breakpoint-mobile) {
     .form {
-        background-color: wheat;
+        background-color: $background-main;
     
-        a {
-            color: $red;
-        }
+    }
+
+    .hide {
+        display: none;
     }
 }
