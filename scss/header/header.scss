@@ -1,0 +1,29 @@
+@media (max-width: $breakpoint-desktop) {
+    header {
+        background-color: red;
+    
+        a {
+            color: $red;
+        }
+    }
+}
+
+@media (max-width: $breakpoint-tablet) {
+    header {
+        background-color: goldenrod;
+    
+        a {
+            color: $red;
+        }
+    }
+}
+
+@media (max-width: $breakpoint-mobile) {
+    header {
+        background-color: gainsboro;
+    
+        a {
+            color: $red;
+        }
+    }
+}

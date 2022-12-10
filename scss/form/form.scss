@@ -1,0 +1,29 @@
+@media (max-width: $breakpoint-desktop) {
+    .form {
+        background-color: blue;
+    
+        a {
+            color: $red;
+        }
+    }
+}
+
+@media (max-width: $breakpoint-tablet) {
+    .form {
+        background-color: pink;
+    
+        a {
+            color: $red;
+        }
+    }
+}
+
+@media (max-width: $breakpoint-mobile) {
+    .form {
+        background-color: wheat;
+    
+        a {
+            color: $red;
+        }
+    }
+}

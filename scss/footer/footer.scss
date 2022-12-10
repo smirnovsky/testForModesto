@@ -1,0 +1,26 @@
+@media (max-width: $breakpoint-desktop) {
+    footer {
+        background-color: yellow;
+        
+    }
+}
+
+@media (max-width: $breakpoint-tablet) {
+    footer {
+        background-color: green;
+    
+        a {
+            color: $red;
+        }
+    }
+}
+
+@media (max-width: $breakpoint-mobile) {
+    footer {
+        background-color: grey;
+    
+        a {
+            color: $red;
+        }
+    }
+}
