@@ -17,6 +17,7 @@
                 <a href="#">Ru</a>
                 <a class="eng" href="#">Eng</a>
             </div>
+            <a class="enter" href="#">Войти</a>
             <a class="burger" href="#"></a>
         </nav>
     </header>
@@ -24,7 +25,7 @@
     <main class="main">
         <section class="main-bg">
             <div class="main-content__position">
-                <p class="main-header">Мы будем рады сотрудничать с вами на Международной цветочной онлайн-площадкe!</p>
+                <p class="main-header">Мы будем рады сотрудничать с вами на <span class="main-header__tablettext">площадке <br>'Международной цветочной онлайн-площадки!'</span><span class="main-header__mobiletext">Международной цветочной онлайн-площадкe!</span></p>
                 <p class="main-text">Присоединяйтесь к нам и начните получать доход с бизнеса в первый месяц регистрации! </p>
                 <div class="button-wrapper">
                     <button class="button-yellow" type="button">Начать покупать</button>
@@ -40,39 +41,44 @@
                 </div>
 
                 <form action="#" class="form">
-                    <div class="form-input">
-                        <label class="form-input__name" for="name">Ваше имя</label>
-                        <input class="form-input__input" type="text" id="name" value="Фролова Александра Васильевна">
+                    <div class="form-tablet__felx">
+                        <div class="form-input">
+                            <label class="form-input__name" for="name">Ваше имя</label>
+                            <input class="form-input__input" type="text" id="name" value="Фролова Александра Васильевна">
+                        </div>
+                        <div class="form-input">
+                            <label class="form-input__name" for="company">Название Компании</label>
+                            <input class="form-input__input" type="text" id="company" value="ООО Атлантика">
+                        </div>
+                        <div class="form-input">
+                            <label class="form-input__name" for="email">E-mail</label>
+                            <input class="form-input__input" type="text" id="email" value="flolovaalexa@com.rur">
+                        </div>
                     </div>
-                    <div class="form-input">
-                        <label class="form-input__name" for="company">Название Компании</label>
-                        <input class="form-input__input" type="text" id="company" value="ООО Атлантика">
-                    </div>
-                    <div class="form-input">
-                        <label class="form-input__name" for="email">E-mail</label>
-                        <input class="form-input__input" type="text" id="email" value="flolovaalexa@com.rur">
-                    </div>
-                    <div class="form-input">
-                        <label class="form-input__name" for="phone">Номер телефона</label>
-                        <input class="form-input__input" type="text" id="phone" value="+7 (XXX) - XXX XX XX">
-                    </div>
-                    <div class="form-input">
-                        <label class="form-input__name" for="code">Промокод</label>
-                        <input class="form-input__input" type="text" id="code" value="HGF864">
-                    </div>
+                    <div class="form-tablet__felx">
+                        <div class="form-input">
+                            <label class="form-input__name" for="phone">Номер телефона</label>
+                            <input class="form-input__input" type="text" id="phone" value="+7 (XXX) - XXX XX XX">
+                        </div>
+                        <div class="form-input">
+                            <label class="form-input__name" for="code">Промокод</label>
+                            <input class="form-input__input" type="text" id="code" value="HGF864">
+                        </div>
+                        <button class="form-button button-yellow form-button__forward" id="btn" type="button">Далее</button>
+                    </div>              
                 </form>
 
                 <form action="#" class="captcha hide" id="captcha">
-                    <div class="form-input">
+                    <div class="form-input form-input__password">
                         <label class="form-input__name" for="password">Пароль</label>
                         <input class="form-input__input" type="text" id="password" value="Создайте пароль">
                     </div>
-                    <div class="form-input">
+                    <div class="form-input form-input__confirm">
                         <label class="form-input__name" for="" for="confirmPassword">Подтвердите пароль</label>
                         <input class="form-input__input" type="text" id="confirmPassword" value="Повторите пароль">
                     </div>
-                    <div class="captcha_img"></div>
-                    <div class="form-input">
+                    <div class="captcha_img captcha"></div>
+                    <div class="form-input form-input__symbols">
                         <label class="form-input__name" for="captcha">Введите символы из картинки</label>
                         <input class="form-input__input" type="text" id="captcha" value="Код из картинки">
                     </div>
@@ -89,14 +95,12 @@
                     </div>
                 </form>
 
-                <div>
-                    <button class="button-yellow form-button__forward" id="btn" type="submit">Далее</button>
-                </div>
+                
             </div>
         </section>
     </main>
     <footer class="footer">
-        <div>
+        <div class="adress">
             <div class="contacts-header">Наши офисы</div>
             <div class="contacts-text">Московский офис<br>
                 +7 455 267-89-07<br>
