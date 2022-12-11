@@ -45,3 +45,11 @@
     font-display: swap;
     src: url("/fonts/Roboto-Regular.woff"), url("/fonts/Roboto-Regular.woff2");
   }
+
+@font-face {
+  font-family: "PTSans";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("/fonts/PTSans-Regular.woff"), url("/fonts/PTSans-Regular.woff2");
+}

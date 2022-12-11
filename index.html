@@ -39,7 +39,7 @@
                     <p class="form-text">Регистрация на нашем сайте занимает несколько минут, просим ответить на все вопросы полностью и корректно! После подтверждения регистрации вы попадёте в систему, где большинство процессов автоматизированы, что сэкономит ваше время и деньги!</p>
                 </div>
 
-                <form action="link.html" class="form">
+                <form action="#" class="form">
                     <div class="form-input">
                         <label class="form-input__name" for="name">Ваше имя</label>
                         <input class="form-input__input" type="text" id="name" value="Фролова Александра Васильевна">
@@ -60,30 +60,38 @@
                         <label class="form-input__name" for="code">Промокод</label>
                         <input class="form-input__input" type="text" id="code" value="HGF864">
                     </div>
-                    <div>
-                        <input class="button-yellow" type="submit" value="Далее">
-                    </div>
-                    </form>
-                <form action="link.html" class="form hide">
-                    <div>
-                        <label for="password">Пароль</label>
-                        <input type="text" id="password" value="Создайте пароль">
-                    </div>
-                    <div>
-                        <label for="" for="confirmPassword">Подтвердите пароль</label>
-                        <input type="text" id="confirmPassword" value="Повторите пароль">
-                    </div>
-                    <div>
-                        captcha
-                    </div>
-                    <div>
-                        <label for="captcha">Введите символы из картинки</label>
-                        <input type="text" id="captcha" value="Код из картинки">
-                    </div>
-                    <button type="button">Назад</button>
-                    <button type="button">Подтвердить</button>
-                    <input type="checkbox">Я даю согласие на обработку моих персональных данных и правовых документов
                 </form>
+
+                <form action="#" class="captcha hide" id="captcha">
+                    <div class="form-input">
+                        <label class="form-input__name" for="password">Пароль</label>
+                        <input class="form-input__input" type="text" id="password" value="Создайте пароль">
+                    </div>
+                    <div class="form-input">
+                        <label class="form-input__name" for="" for="confirmPassword">Подтвердите пароль</label>
+                        <input class="form-input__input" type="text" id="confirmPassword" value="Повторите пароль">
+                    </div>
+                    <div class="captcha_img"></div>
+                    <div class="form-input">
+                        <label class="form-input__name" for="captcha">Введите символы из картинки</label>
+                        <input class="form-input__input" type="text" id="captcha" value="Код из картинки">
+                    </div>
+                    <div class="captcha-button__wrapper">
+                        <button class="button-yellow form-button__back" id="btn-back" type="button">Назад</button>
+                        <button class="button-grey" type="button">Подтвердить</button>
+                    </div>
+                    <div class="checkbox-wrapper">
+                        <label class="container">
+                            <input type="checkbox" checked="checked">
+                            <span class="checkmark"></span>
+                        </label>
+                        <div class="checkbox-text"> Я даю согласие на обработку моих персональных данных и правовых документов</div>
+                    </div>
+                </form>
+
+                <div>
+                    <button class="button-yellow form-button__forward" id="btn" type="submit">Далее</button>
+                </div>
             </div>
         </section>
     </main>
@@ -115,5 +123,6 @@
             Авторские права 2008-2022 M-flowers.com
         </div>
     </footer>
+    <script src="/js/index.js"></script>
 </body>
 </html>
