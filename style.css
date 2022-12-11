@@ -3,42 +3,42 @@
   font-style: normal;
   font-weight: 200;
   font-display: swap;
-  src: url("../fonts/Raleway-ExtraLight.woff"), url("../fonts/Raleway-ExtraLight.woff2");
+  src: url("/fonts/Raleway-ExtraLight.woff"), url("/fonts/Raleway-ExtraLight.woff2");
 }
 @font-face {
   font-family: "Raleway";
   font-style: normal;
   font-weight: 300;
   font-display: swap;
-  src: url("../fonts/Raleway-Light.woff"), url("../fonts/Raleway-Light.woff2");
+  src: url("/fonts/Raleway-Light.woff"), url("/fonts/Raleway-Light.woff2");
 }
 @font-face {
   font-family: "Raleway";
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: url("../fonts/Raleway-Regular.woff"), url("../fonts/Raleway-Regular.woff2");
+  src: url("/fonts/Raleway-Regular.woff"), url("/fonts/Raleway-Regular.woff2");
 }
 @font-face {
   font-family: "Raleway";
   font-style: normal;
   font-weight: 500;
   font-display: swap;
-  src: url("../fonts/Raleway-Medium.woff"), url("../fonts/Raleway-Medium.woff2");
+  src: url("/fonts/Raleway-Medium.woff"), url("/fonts/Raleway-Medium.woff2");
 }
 @font-face {
   font-family: "Marmelad";
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: url("../fonts/Marmelad-Regular.woff"), url("../fonts/Marmelad-Regular.woff2");
+  src: url("/fonts/Marmelad-Regular.woff"), url("/fonts/Marmelad-Regular.woff2");
 }
 @font-face {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
   font-display: swap;
-  src: url("../fonts/Roboto-Regular.woff"), url("../fonts/Roboto-Regular.woff2");
+  src: url("/fonts/Roboto-Regular.woff"), url("/fonts/Roboto-Regular.woff2");
 }
 * {
   margin: 0;
