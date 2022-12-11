@@ -5,11 +5,18 @@
 }
 
 a {
-    color: black
+    color: $general-text;
+}
+
+footer a{
+    color: $background-main;
 }
 
 button {
     border: 0;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 600;
 }
 
 input {

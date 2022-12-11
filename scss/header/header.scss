@@ -28,8 +28,8 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    width: 50px;
-    height: 50px;
+    width: 42px;
+    height: 42px;
   }
 
   .phone {
@@ -51,5 +51,14 @@
   .eng {
     margin-left: 5px;
     opacity: 0.5;
+  }
+
+  .burger {
+    background-image: url('/img/burger-mobile.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 30px;
+    height: 30px;
   }
 }

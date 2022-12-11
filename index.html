@@ -17,90 +17,102 @@
                 <a href="#">Ru</a>
                 <a class="eng" href="#">Eng</a>
             </div>
-            <a href="#">Bur</a>
+            <a class="burger" href="#"></a>
         </nav>
     </header>
 
     <main class="main">
-        <section>
-            <p class="header">Мы будем рады сотрудничать с вами на Международной цветочной онлайн-площадкe!</p>
-            <p class="headerNew">Присоединяйтесь к нам и начните получать доход с бизнеса в первый месяц регистрации! </p>
-            <button type="button">Начать покупать</button>
-            <button type="button">Начать продавать</button>
-        </section>
-        <section>
-            <div>
-                <p>Заполните форму и начните развивать свой бизнес прямо сейчас!</p>
-                <p>Регистрация на нашем сайте занимает несколько минут, просим ответить на все вопросы полностью и корректно! После подтверждения регистрации вы попадёте в систему, где большинство процессов автоматизированы, что сэкономит ваше время и деньги!</p>
+        <section class="main-bg">
+            <div class="main-content__position">
+                <p class="main-header">Мы будем рады сотрудничать с вами на Международной цветочной онлайн-площадкe!</p>
+                <p class="main-text">Присоединяйтесь к нам и начните получать доход с бизнеса в первый месяц регистрации! </p>
+                <div class="button-wrapper">
+                    <button class="button-yellow" type="button">Начать покупать</button>
+                    <button class="button-grey" type="button">Начать продавать</button>
+                </div>
             </div>
+        </section>
+        <section class="form-bg">
+            <div class="form-wrapper">
+                <div>
+                    <p class="form-header">Заполните форму и начните развивать свой бизнес прямо сейчас!</p>
+                    <p class="form-text">Регистрация на нашем сайте занимает несколько минут, просим ответить на все вопросы полностью и корректно! После подтверждения регистрации вы попадёте в систему, где большинство процессов автоматизированы, что сэкономит ваше время и деньги!</p>
+                </div>
 
-            <form action="link.html" class="form">
-                <div>
-                    <label for="name">Ваше имя</label>
-                    <input type="text" id="name" value="Фролова Александра Васильевна">
-                </div>
-                <div>
-                    <label for="company">Название Компании</label>
-                    <input type="text" id="company" value="ООО Атлантика">
-                </div>
-                <div>
-                    <label for="email">E-mail</label>
-                    <input type="text" id="email" value="flolovaalexa@com.rur">
-                </div>
-                <div>
-                    <label for="phone">Номер телефона</label>
-                    <input type="text" id="phone" value="+7 (XXX) - XXX XX XX">
-                </div>
-                <div>
-                    <label for="code">Промокод</label>
-                    <input type="text" id="code" value="HGF864">
-                </div>
-                <div>
-                    <input type="submit" value="Далее">
-                </div>
+                <form action="link.html" class="form">
+                    <div class="form-input">
+                        <label class="form-input__name" for="name">Ваше имя</label>
+                        <input class="form-input__input" type="text" id="name" value="Фролова Александра Васильевна">
+                    </div>
+                    <div class="form-input">
+                        <label class="form-input__name" for="company">Название Компании</label>
+                        <input class="form-input__input" type="text" id="company" value="ООО Атлантика">
+                    </div>
+                    <div class="form-input">
+                        <label class="form-input__name" for="email">E-mail</label>
+                        <input class="form-input__input" type="text" id="email" value="flolovaalexa@com.rur">
+                    </div>
+                    <div class="form-input">
+                        <label class="form-input__name" for="phone">Номер телефона</label>
+                        <input class="form-input__input" type="text" id="phone" value="+7 (XXX) - XXX XX XX">
+                    </div>
+                    <div class="form-input">
+                        <label class="form-input__name" for="code">Промокод</label>
+                        <input class="form-input__input" type="text" id="code" value="HGF864">
+                    </div>
+                    <div>
+                        <input class="button-yellow" type="submit" value="Далее">
+                    </div>
+                    </form>
+                <form action="link.html" class="form hide">
+                    <div>
+                        <label for="password">Пароль</label>
+                        <input type="text" id="password" value="Создайте пароль">
+                    </div>
+                    <div>
+                        <label for="" for="confirmPassword">Подтвердите пароль</label>
+                        <input type="text" id="confirmPassword" value="Повторите пароль">
+                    </div>
+                    <div>
+                        captcha
+                    </div>
+                    <div>
+                        <label for="captcha">Введите символы из картинки</label>
+                        <input type="text" id="captcha" value="Код из картинки">
+                    </div>
+                    <button type="button">Назад</button>
+                    <button type="button">Подтвердить</button>
+                    <input type="checkbox">Я даю согласие на обработку моих персональных данных и правовых документов
                 </form>
-            <form action="link.html" class="form hide">
-                <div>
-                    <label for="password">Пароль</label>
-                    <input type="text" id="password" value="Создайте пароль">
-                </div>
-                <div>
-                    <label for="" for="confirmPassword">Подтвердите пароль</label>
-                    <input type="text" id="confirmPassword" value="Повторите пароль">
-                </div>
-                <div>
-                    captcha
-                </div>
-                <div>
-                    <label for="captcha">Введите символы из картинки</label>
-                    <input type="text" id="captcha" value="Код из картинки">
-                </div>
-                <button type="button">Назад</button>
-                <button type="button">Подтвердить</button>
-                <input type="checkbox">Я даю согласие на обработку моих персональных данных и правовых документов
-            </form>
+            </div>
         </section>
     </main>
-    <footer>
-        <div>Наши офисы
-            <div>Московский офис
-                +7 455 267-89-07
-                Берсеневский пер., д. 56, стр. 4,
+    <footer class="footer">
+        <div>
+            <div class="contacts-header">Наши офисы</div>
+            <div class="contacts-text">Московский офис<br>
+                +7 455 267-89-07<br>
+                Берсеневский пер., д. 56, стр. 4, <br>
                 6-й эт., Москва, 567754</div>
-            <div>
-                Ростовский офис
-                +7 878 888-01-67
-                Буденовский пр-т, д. 84, 6-й эт.,
+            <div class="contacts-text">
+                Ростовский офис<br>
+                +7 878 888-01-67<br>
+                Буденовский пр-т, д. 84, 6-й эт., <br>
                 Ростов-на-Дону, 679965</div>
         </div>
-        <div>Мы в соц сетях
-            <a href="instagram.com">Instagram</a>
-            <a href="facebook.com">Facebook</a>
+        <div class="social">
+            <div class="contacts-header">Мы в соц сетях</div>
+            <a class="instagram" href="instagram.com">Instagram</a>
+            <a class="facebook" href="facebook.com">Facebook</a>
         </div>
-        <div>
-            <a href="tel:+36787547894">+3 67 8754 7894</a>
-            <a href="mailto:mflowers@flo.com">mflowers@flo.com</a>
-            <button type="button">Подтвердить</button>
+        <div class="contacts">
+            <div class="contacts-header">Свяжитесь с нами</div>
+            <a class="phone" href="tel:+36787547894">+3 67 8754 7894</a>
+            <a class="mail" href="mailto:mflowers@flo.com">mflowers@flo.com</a>
+            <button class="button-footer" type="button">Написать</button>
+        </div>
+        <div class="rights">
+            Авторские права 2008-2022 M-flowers.com
         </div>
     </footer>
 </body>

@@ -23,4 +23,69 @@
     .hide {
         display: none;
     }
+
+    .form-bg {
+        background-image: url('/img/form-bg.png');
+        background-repeat: no-repeat;
+        background-position-y: 0px;
+        background-position-x: -840px;
+        padding: 20px;
+    }
+
+    .form-wrapper {
+        background-color: $background-main;
+        padding: 20px;
+    }
+
+    .form-header {
+        font-family: 'Marmelad';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 29px;
+    }
+
+    .form-text {
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+
+        margin-top: 32px;
+    }
+    
+    .form-input {
+        display: flex;
+        flex-direction: column;
+        margin-top: 20px;
+
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 16px;
+    }
+
+    .form-input__name {
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 16px;
+    }
+
+    .form-input__input {
+        margin-top: 10px;
+        width: auto;
+        padding: 16px;
+        border-radius: 10px;
+
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 16px;
+        color: $input-text;
+    }
 }
