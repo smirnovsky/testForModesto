@@ -3,49 +3,49 @@
   font-style: normal;
   font-weight: 200;
   font-display: swap;
-  src: url("/fonts/Raleway-ExtraLight.woff"), url("/fonts/Raleway-ExtraLight.woff2");
+  src: url("fonts/Raleway-ExtraLight.woff"), url("fonts/Raleway-ExtraLight.woff2");
 }
 @font-face {
   font-family: "Raleway";
   font-style: normal;
   font-weight: 300;
   font-display: swap;
-  src: url("/fonts/Raleway-Light.woff"), url("/fonts/Raleway-Light.woff2");
+  src: url("fonts/Raleway-Light.woff"), url("fonts/Raleway-Light.woff2");
 }
 @font-face {
   font-family: "Raleway";
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: url("/fonts/Raleway-Regular.woff"), url("/fonts/Raleway-Regular.woff2");
+  src: url("fonts/Raleway-Regular.woff"), url("fonts/Raleway-Regular.woff2");
 }
 @font-face {
   font-family: "Raleway";
   font-style: normal;
   font-weight: 500;
   font-display: swap;
-  src: url("/fonts/Raleway-Medium.woff"), url("/fonts/Raleway-Medium.woff2");
+  src: url("fonts/Raleway-Medium.woff"), url("fonts/Raleway-Medium.woff2");
 }
 @font-face {
   font-family: "Marmelad";
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: url("/fonts/Marmelad-Regular.woff"), url("/fonts/Marmelad-Regular.woff2");
+  src: url("fonts/Marmelad-Regular.woff"), url("fonts/Marmelad-Regular.woff2");
 }
 @font-face {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
   font-display: swap;
-  src: url("/fonts/Roboto-Regular.woff"), url("/fonts/Roboto-Regular.woff2");
+  src: url("fonts/Roboto-Regular.woff"), url("fonts/Roboto-Regular.woff2");
 }
 @font-face {
   font-family: "PTSans";
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: url("/fonts/PTSans-Regular.woff"), url("/fonts/PTSans-Regular.woff2");
+  src: url("fonts/PTSans-Regular.woff"), url("fonts/PTSans-Regular.woff2");
 }
 * {
   margin: 0;
@@ -75,6 +75,77 @@ input {
 @media (max-width: 1366px) {
   header {
     background-color: #FFFBEC;
+  }
+  .navigation {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 20px;
+  }
+  .logo {
+    background-image: url("img/logo-mobile.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 86px;
+    height: 86px;
+  }
+  .phone {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    margin-left: 80px;
+  }
+  .language {
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 23px;
+  }
+  .eng {
+    margin-left: 5px;
+    opacity: 0.5;
+  }
+  .enter {
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+  }
+  .header-menu__desktop {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+  }
+  .header-menu__create-account {
+    display: block;
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    padding: 10px 20px;
+    border: 1px solid black;
+    border-radius: 10px;
+  }
+  .burger {
+    display: none;
+    background-image: url("img/burger-mobile.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 40px;
+    height: 40px;
   }
 }
 @media (max-width: 768px) {
@@ -122,8 +193,15 @@ input {
     font-size: 18px;
     line-height: 21px;
   }
+  .header-menu__desktop {
+    display: none;
+  }
+  .header-menu__create-account {
+    display: none;
+  }
   .burger {
-    background-image: url("/img/burger-mobile.svg");
+    display: block;
+    background-image: url("img/burger-mobile.svg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -171,8 +249,15 @@ input {
   .enter {
     display: none;
   }
+  .header-menu__desktop {
+    display: none;
+  }
+  .header-menu__create-account {
+    display: none;
+  }
   .burger {
-    background-image: url("/img/burger-mobile.svg");
+    display: block;
+    background-image: url("img/burger-mobile.svg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -183,6 +268,61 @@ input {
 @media (max-width: 1366px) {
   .main {
     background-color: #FFFBEC;
+  }
+  .main .main-header {
+    font-family: "Marmelad";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 56px;
+    line-height: 67px;
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  .main .main-header__tablettext {
+    display: block;
+  }
+  .main .main-header__mobiletext {
+    display: none;
+  }
+  .main .main-text {
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 26px;
+    line-height: 31px;
+    text-align: center;
+    margin-bottom: 58px;
+  }
+  .main .main-bg {
+    background-image: url("img/bg-flowers-desktop.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position-y: -40px;
+    height: 100%;
+  }
+  .main .main-content__position {
+    padding-top: 114px;
+    padding-bottom: 207px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .main .button-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+    width: 100%;
+  }
+  .main .button-yellow {
+    background-color: #FFE182;
+    border-radius: 10px;
+  }
+  .main .button-grey {
+    background-color: #EDEDED;
+    width: 240px;
+    padding-top: 22px;
+    padding-bottom: 22px;
+    border-radius: 10px;
   }
 }
 @media (max-width: 768px) {
@@ -214,7 +354,7 @@ input {
     margin-bottom: 58px;
   }
   .main .main-bg {
-    background-image: url("/img/bg-flowers-tablet.png");
+    background-image: url("img/bg-flowers-tablet.png");
     background-repeat: no-repeat;
     background-size: 100%;
     height: 100%;
@@ -273,7 +413,7 @@ input {
     margin-bottom: 24px;
   }
   .main .main-bg {
-    background-image: url("/img/bg-flowers-mobile.png");
+    background-image: url("img/bg-flowers-mobile.png");
     background-repeat: no-repeat;
     background-size: 100%;
   }
@@ -337,7 +477,7 @@ input {
     display: none;
   }
   .form-bg {
-    background-image: url("/img/form-bg.png");
+    background-image: url("img/form-bg.png");
     background-repeat: no-repeat;
     background-position-y: 0px;
     background-position-x: -640px;
@@ -415,7 +555,7 @@ input {
   }
   .captcha_img {
     grid-area: captcha;
-    background-image: url("/img/captcha.png");
+    background-image: url("img/captcha.png");
     background-repeat: no-repeat;
     width: auto;
     height: 100px;
@@ -498,7 +638,7 @@ input {
     display: none;
   }
   .form-bg {
-    background-image: url("/img/form-bg.png");
+    background-image: url("img/form-bg.png");
     background-repeat: no-repeat;
     background-position-y: 0px;
     background-position-x: -840px;
@@ -569,7 +709,7 @@ input {
     margin-top: 20px;
   }
   .captcha_img {
-    background-image: url("/img/captcha.png");
+    background-image: url("img/captcha.png");
     background-repeat: no-repeat;
     width: auto;
     height: 100px;
