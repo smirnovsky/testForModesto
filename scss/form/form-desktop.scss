@@ -1,0 +1,89 @@
+@media (min-width: $breakpoint-desktop) {
+    .form-wrapper {
+        display: grid;
+        grid-template-columns: 60% 40%;
+        background-image: url("img/desktop-form-bg.png");
+        background-repeat: no-repeat;
+        background-position-y: 145px;
+        background-size: 100%;
+    }
+    
+    .form {
+        display: flex;
+        flex-direction: column;
+        margin-top: 20px;
+    }
+  
+    .captcha {
+      display: flex;
+      flex-direction: column;
+    }
+  
+    .hide {
+      display: none;
+    }
+  
+    .form-bg {
+      background-image: url("img/bg-yellow-desktop.png");
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: 100%;
+      padding: 60px 280px;
+    }
+  
+    .form-header {
+      font-family: "Marmelad";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 26px;
+      line-height: 23px;
+      width: 400px;
+    }
+  
+    .form-text {
+      font-family: "Raleway";
+      font-style: normal;
+      font-weight: 300;
+      font-size: 18px;
+      line-height: 21px;
+  
+      margin-top: 40px;
+      width: 300px;
+    }
+  
+    .form-input {
+      display: flex;
+      flex-direction: column;
+      margin-top: 10px;
+
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 16px;
+    }
+  
+    .captcha_img {
+      grid-area: captcha;
+  
+      background-image: url("img/captcha.png");
+      background-repeat: no-repeat;
+      background-size: 90%;
+  
+    }
+
+    .captcha-button__wrapper {
+        margin-top: 3px;
+    }
+  
+    .button-captcha__yellow {
+      background-color: $button-yellow;
+      width: 100%;
+      border-radius: 10px;
+    }
+  
+    .button-captcha__grey{
+      background-color: $button-grey;
+      width: 100%;
+      border-radius: 10px;
+    }
+  }
+  

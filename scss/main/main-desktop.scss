@@ -1,0 +1,80 @@
+@media (min-width: $breakpoint-desktop) {
+  .main-header {
+    font-family: "Marmelad";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 57px;
+    text-align: center;
+    width: 800px;
+    margin: auto;
+
+    margin-bottom: 20px;
+    margin-top: 66px;
+  }
+
+  .main-header__tablettext {
+    display: block;
+  }
+
+  .main-header__mobiletext {
+    display: none;
+  }
+
+  .main-text {
+    font-size: 16px;
+    line-height: 31px;
+    text-align: center;
+    width: 400px;
+
+    margin: auto;
+  }
+
+  .main-bg {
+    background-image: url("img/bg-flowers-desktop.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position-y: -40px;
+  }
+
+  .main-content__position {
+    padding-top: 20px;
+    padding-bottom: 102px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .button-wrapper {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    width: 40%;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 50px;
+  }
+
+  .button-yellow {
+    background-color: $button-yellow;
+    width: 100%;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    border-radius: 10px;
+
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 21px;
+  }
+
+  .button-grey {
+    background-color: $button-grey;
+    width: 100%;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    border-radius: 10px;
+
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 21px;
+  }
+}

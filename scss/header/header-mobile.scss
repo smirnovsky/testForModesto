@@ -1,52 +1,52 @@
 .navigation {
-display: flex;
-flex-direction: row;
-justify-content: space-around;
-align-items: center;
-padding: 8px 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding: 8px 20px;
 }
 
 .logo {
-background-image: url('img/logo-mobile.png');
-background-repeat: no-repeat;
-background-position: center;
-background-size: cover;
-width: 42px;
-height: 42px;
+  background-image: url("img/logo-mobile.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 42px;
+  height: 42px;
 }
 
-.phone {
-font-family: "Roboto";
-font-style: normal;
-font-weight: 500;
-font-size: 16px;
-line-height: 19px;
+.header-phone {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 23px;
 }
 
 .eng {
-margin-left: 5px;
-opacity: 0.5;
+  margin-left: 5px;
+  opacity: 0.5;
 }
 
 .enter {
-display: none;
+  display: none;
 }
 
 .header-menu__desktop {
-display: none;
+  display: none;
 }
 
 .header-menu__create-account {
-display: none;
+  display: none;
 }
 
 .burger {
-display: block;
+  display: block;
 
-background-image: url('img/burger-mobile.svg');
-background-repeat: no-repeat;
-background-position: center;
-background-size: cover;
-width: 30px;
-height: 30px;
+  background-image: url("img/burger-mobile.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 30px;
+  height: 30px;
 }

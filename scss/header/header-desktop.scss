@@ -1,0 +1,73 @@
+@media (min-width: $breakpoint-desktop) {
+  .navigation {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 20px;
+  }
+
+  .logo {
+    background-image: url("img/logo-mobile.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 86px;
+    height: 86px;
+  }
+
+  .header-phone {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 23px;
+    margin-left: 180px;
+  }
+
+  .language {
+    display: none;
+    font-size: 20px;
+    line-height: 23px;
+  }
+
+  .eng {
+    margin-left: 5px;
+    opacity: 0.5;
+  }
+
+  .enter {
+    display: block;
+    font-size: 18px;
+    line-height: 21px;
+  }
+
+  .header-menu__desktop {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+
+    font-size: 18px;
+    line-height: 21px;
+
+  }
+
+  .header-menu__create-account {
+    display: block;
+    border: 1px solid black;
+    border-radius: 15px;
+    
+    padding: 12px 30px;
+  }
+
+  .burger {
+    display: none;
+
+    background-image: url("img/burger-mobile.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 30px;
+    height: 30px;
+  }
+}

@@ -1,0 +1,100 @@
+@include desktop {
+    .footer {
+      background-color: $background-footer;
+      color: $background-main;
+      padding: 40px;
+      display: flex;
+      flex-direction: row;
+      align-items: flex-start;
+      justify-content: space-around;
+      gap: 48px;
+    }
+  
+    .adress {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      gap: 40px;
+    }
+  
+    .button-footer {
+      background-color: $button-yellow;
+      width: 80%;
+      padding-top: 12px;
+      padding-bottom: 12px;
+      padding-left: 25px;
+      text-align: left;
+      margin-top: 16px;
+      border-radius: 10px;
+  
+      background-image: url("/img/Envelope.svg");
+      background-repeat: no-repeat;
+      background-position-x: 90px;
+      background-position-y: 8px;
+    }
+  
+    .contacts-header {
+      font-family: "Marmelad";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 29px;
+      margin-bottom: 24px;
+    }
+  
+    .contacts-text {
+      font-weight: 300;
+      font-size: 17px;
+      line-height: 19px;
+      display: flex;
+      align-items: center;
+      margin-top: 16px;
+    }
+  
+    .social {
+      grid-area: social;
+  
+      display: flex;
+      flex-direction: column;
+  
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 29px;
+      margin-bottom: 24px;
+    }
+  
+    .instagram {
+      margin-top: 0px;
+    }
+  
+    .facebook {
+      margin-top: 0px;
+    }
+  
+    .contacts {
+      display: flex;
+      flex-direction: column;
+    }
+  
+    .mail {
+      font-weight: 300;
+      font-size: 20px;
+      line-height: 23px;
+  
+      margin-top: 5px;
+    }
+  
+    .rights {
+      display: none;
+    }
+  
+    .footer-phone {
+      font-family: "Roboto";
+      font-style: normal;
+      font-weight: 600;
+      font-size: 18px;
+      line-height: 23px;
+    }
+  }
+  

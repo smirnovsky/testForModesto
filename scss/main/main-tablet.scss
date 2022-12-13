@@ -3,9 +3,10 @@
     font-family: 'Marmelad';
     font-style: normal;
     font-weight: 400;
-    font-size: 56px;
-    line-height: 67px;
+    font-size: 46px;
+    line-height: 57px;
     text-align: center;
+    width: 550px;
 
     margin-bottom: 40px;
   }
@@ -30,12 +31,14 @@
   .main-bg {
     background-image: url("img/bg-flowers-tablet.png");
     background-repeat: no-repeat;
+    background-position-y: -40px;
     background-size: 100%;
+    padding: 10px 100px;
   }
 
   .main-content__position {
-    padding-top: 60px;
-    padding-bottom: 152px;
+    padding-top: 10px;
+    padding-bottom: 172px;
     margin-left: 20px;
     margin-right: 20px;
   }
@@ -43,8 +46,8 @@
   .button-wrapper {
     display: flex;
     flex-direction: row;
-    gap: 8px;
-    width: 60%;
+    gap: 15px;
+    width: 100%;
     margin: auto;
   }
 
