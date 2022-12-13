@@ -1,0 +1,21 @@
+.container {
+    width: 360px;
+    padding: 0 0px;
+    margin: auto;
+  }
+
+@media (min-width: $breakpoint-tablet) {
+    .container {
+        width: 768px;
+        padding: 0 0px;
+        margin: auto;
+    }
+}
+
+@media (min-width: $breakpoint-desktop) {
+    .container {
+        width: 1300px;
+        padding: 0 0px;
+        margin: auto;
+    }
+}

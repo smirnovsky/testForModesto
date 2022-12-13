@@ -1,0 +1,97 @@
+@include tablet {
+    .footer {
+        background-color: $background-footer;
+        color: $background-main;
+        padding: 20px;
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: auto;
+        grid-template-areas: 
+        "adress contacts"
+        "social . "
+        "rights . ";
+        flex-direction: column;
+        gap: 48px;
+    }
+
+    .adress {
+        grid-area: adress;
+    }
+
+    .button-footer {
+        background-color: $button-yellow;
+        width: 80%;
+        padding-top: 12px;
+        padding-bottom: 12px;
+        padding-left: 60px;
+        text-align: left;
+        margin-top: 16px;
+        border-radius: 10px;
+
+        background-image: url('/img/Envelope.svg');
+        background-repeat: no-repeat;
+        background-position-x: 135px;
+        background-position-y: 8px;
+    }
+
+    .contacts-header {
+        font-family: 'Marmelad';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 29px;
+        margin-bottom: 24px;
+    }
+
+    .contacts-text {
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 21px;
+        display: flex;
+        align-items: center;
+        margin-top: 16px;
+    }
+
+    .social {
+        grid-area: social;
+
+        display: flex;
+        flex-direction: column;
+
+        font-weight: 300;
+        font-size: 20px;
+        line-height: 23px;
+    }
+
+    .instagram {
+        margin-top: 20px;
+    }
+
+    .facebook {
+        margin-top: 16px;
+    }
+
+    .contacts {
+        display: flex;
+        flex-direction: column;
+        grid-area: contacts;
+        margin-left: 100px;
+    }
+
+    .mail {
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 23px;
+
+        margin-top: 24px;
+    }
+
+    .rights {
+        grid-area: rights;
+
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 14px;
+        color: #B9B3B3;
+    }
+}

@@ -1,0 +1,135 @@
+.form {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .captcha {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .hide {
+    display: none;
+  }
+
+  .form-bg {
+    background-image: url("img/form-bg.png");
+    background-repeat: no-repeat;
+    background-position-y: 0px;
+    background-position-x: -840px;
+    padding: 20px;
+  }
+
+  .form-wrapper {
+    background-color: $background-main;
+    padding: 20px;
+  }
+
+  .form-header {
+    font-family: "Marmelad";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+  }
+
+  .form-text {
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+
+    margin-top: 32px;
+  }
+
+  .form-input {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+  }
+
+  .form-input__name {
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+  }
+
+  .form-input__input {
+    margin-top: 10px;
+    width: auto;
+    padding: 16px;
+    border-radius: 10px;
+
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: $input-text;
+  }
+
+  .captcha-button__wrapper {
+    display: grid;
+    grid-template-columns: 40% 60%;
+    gap: 8px;
+    margin-top: 20px;
+  }
+
+  .checkbox-wrapper {
+    display: flex;
+    flex-direction: row;
+    gap: 2px;
+    align-items: flex-start;
+    margin-top: 20px;
+  }
+
+  .form-button {
+    margin-top: 20px;
+    background-color: $button-yellow;
+    width: 100%;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border-radius: 10px;
+  }
+
+  .captcha_img {
+    background-image: url('img/captcha.png');
+    background-repeat: no-repeat;
+    width: auto;
+    height: 100px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .checkbox-text {
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+  }
+
+  .button-captcha__yellow {
+    background-color: $button-yellow;
+    width: 100%;
+    border-radius: 10px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+  }
+
+  .button-captcha__grey{
+    background-color: $button-grey;
+    width: 100%;
+    border-radius: 10px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+  }
