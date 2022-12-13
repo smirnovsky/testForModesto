@@ -55,6 +55,18 @@
     padding-top: 12px;
     padding-bottom: 12px;
     border-radius: 10px;
+
+    cursor: pointer;
+
+    transition: 0.5s;
+}
+
+.button-yellow:hover {
+    opacity: 0.7;
+}
+
+.button-yellow:active {
+    opacity: 0.5;
 }
 
 .button-grey {
@@ -63,4 +75,16 @@
     padding-top: 12px;
     padding-bottom: 12px;
     border-radius: 10px;
+    
+    cursor: pointer;
+
+    transition: 0.5s;
+}
+
+.button-grey:hover {
+    opacity: 0.7;
+}
+
+.button-grey:active {
+    opacity: 0.5;
 }

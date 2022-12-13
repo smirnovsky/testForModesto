@@ -40,24 +40,83 @@
     display: block;
     font-size: 18px;
     line-height: 21px;
+    padding: 12px 30px;
+    border-radius: 15px;
+    transition: 0.5s;
   }
+
+  .enter:hover {
+    background-color: $button-special;
+  }
+  
 
   .header-menu__desktop {
     display: flex;
     flex-direction: row;
-    gap: 20px;
+    gap: 10px;
 
     font-size: 18px;
     line-height: 21px;
-
   }
 
   .header-menu__create-account {
     display: block;
-    border: 1px solid black;
+    border: 1px solid $general-text;
     border-radius: 15px;
     
     padding: 12px 30px;
+    
+    cursor: pointer;
+    transition: 0.5s;
+  }
+
+  .header-menu__create-account:hover {
+    background-color: $button-special;
+  }
+
+  .header-menu__about {
+    display: block;
+    font-size: 18px;
+    line-height: 21px;
+    padding: 12px 10px;
+    border-radius: 15px;
+    cursor: pointer;
+
+    transition: 0.5s;
+  }
+
+  .header-menu__about:hover {
+    background-color: $button-special;
+  }
+
+  .header-menu__contacts {
+    display: block;
+    font-size: 18px;
+    line-height: 21px;
+    padding: 12px 10px;
+    border-radius: 15px;
+    cursor: pointer;
+
+    transition: 0.5s;
+}
+
+.header-menu__contacts:hover {
+  background-color: $button-special;
+}
+
+  .header-menu__shops {
+    display: block;
+    font-size: 18px;
+    line-height: 21px;
+    padding: 12px 10px;
+    border-radius: 15px;
+    cursor: pointer;
+
+    transition: 0.5s;
+  }
+
+  .header-menu__shops:hover {
+    background-color: $button-special;
   }
 
   .burger {
@@ -69,5 +128,6 @@
     background-size: cover;
     width: 30px;
     height: 30px;
+    cursor: pointer;
   }
 }

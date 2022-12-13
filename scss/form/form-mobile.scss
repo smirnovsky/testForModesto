@@ -1,135 +1,190 @@
 .form {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
+
+  animation: 1s show ease;
+
+  @keyframes show {
+    from { opacity: 0; }
+    to { opacity: 1; }
   }
+}
 
-  .captcha {
-    display: flex;
-    flex-direction: column;
+.captcha {
+  display: flex;
+  flex-direction: column;  
+  
+  animation: 1s show ease;
+
+  @keyframes show {
+    from { opacity: 0; }
+    to { opacity: 1; }
   }
+}
 
-  .hide {
-    display: none;
-  }
+.hide {
+  display: none;
+}
 
-  .form-bg {
-    background-image: url("img/form-bg.png");
-    background-repeat: no-repeat;
-    background-position-y: 0px;
-    background-position-x: -840px;
-    padding: 20px;
-  }
+.form-bg {
+  background-image: url("img/form-bg.png");
+  background-repeat: no-repeat;
+  background-position-y: 0px;
+  background-position-x: -840px;
+  padding: 20px;
+}
 
-  .form-wrapper {
-    background-color: $background-main;
-    padding: 20px;
-  }
+.form-wrapper {
+  background-color: $background-main;
+  padding: 20px;
+}
 
-  .form-header {
-    font-family: "Marmelad";
-    font-style: normal;
-    font-weight: 400;
-    font-size: 24px;
-    line-height: 29px;
-  }
+.form-header {
+  font-family: "Marmelad";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+}
 
-  .form-text {
-    font-family: "Raleway";
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 19px;
+.form-text {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
 
-    margin-top: 32px;
-  }
+  margin-top: 32px;
+}
 
-  .form-input {
-    display: flex;
-    flex-direction: column;
-    margin-top: 20px;
+.form-input {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
 
-    font-family: "Raleway";
-    font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 16px;
-  }
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+}
 
-  .form-input__name {
-    font-family: "Raleway";
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 16px;
-  }
+.form-input__name {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+}
 
-  .form-input__input {
-    margin-top: 10px;
-    width: auto;
-    padding: 16px;
-    border-radius: 10px;
+.form-input__input {
+  margin-top: 10px;
+  width: auto;
+  padding: 16px;
+  border-radius: 10px;
+  outline: none;
 
-    font-family: "Raleway";
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 16px;
-    color: $input-text;
-  }
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  color: $input-text;
 
-  .captcha-button__wrapper {
-    display: grid;
-    grid-template-columns: 40% 60%;
-    gap: 8px;
-    margin-top: 20px;
-  }
+  transition: 0.5s;
+} 
 
-  .checkbox-wrapper {
-    display: flex;
-    flex-direction: row;
-    gap: 2px;
-    align-items: flex-start;
-    margin-top: 20px;
-  }
+.form-input__input:hover {
+  box-shadow: inset 0px 0px 20px rgba(136, 136, 39, 0.166);
+}
 
-  .form-button {
-    margin-top: 20px;
-    background-color: $button-yellow;
-    width: 100%;
-    padding-top: 12px;
-    padding-bottom: 12px;
-    border-radius: 10px;
-  }
+.form-input__input:focus {
+  background-color: rgba(136, 136, 39, 0.166);
+}
 
-  .captcha_img {
-    background-image: url('img/captcha.png');
-    background-repeat: no-repeat;
-    width: auto;
-    height: 100px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-  }
+.captcha-button__wrapper {
+  display: grid;
+  grid-template-columns: 40% 60%;
+  gap: 8px;
+  margin-top: 20px;
+}
 
-  .checkbox-text {
-    font-family: "Raleway";
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 16px;
-  }
+.checkbox-wrapper {
+  display: flex;
+  flex-direction: row;
+  gap: 2px;
+  align-items: flex-start;
+  margin-top: 20px;
+}
 
-  .button-captcha__yellow {
-    background-color: $button-yellow;
-    width: 100%;
-    border-radius: 10px;
-    padding-top: 12px;
-    padding-bottom: 12px;
-  }
+.form-button {
+  margin-top: 20px;
+  background-color: $button-yellow;
+  width: 100%;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  border-radius: 10px;
 
-  .button-captcha__grey{
-    background-color: $button-grey;
-    width: 100%;
-    border-radius: 10px;
-    padding-top: 12px;
-    padding-bottom: 12px;
-  }
+  transition: 0.5s;
+}
+
+.form-button:hover {
+  opacity: 0.7;
+}
+
+.form-button:active {
+  opacity: 0.5;
+}
+
+.captcha_img {
+  background-image: url("img/captcha.png");
+  background-repeat: no-repeat;
+  width: auto;
+  height: 100px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.checkbox-text {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+}
+
+.button-captcha__yellow {
+  background-color: $button-yellow;
+  width: 100%;
+  border-radius: 10px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+
+  transition: 0.5s;
+}
+
+.button-captcha__yellow:hover {
+  opacity: 0.7;
+}
+
+.button-captcha__yellow:active {
+  opacity: 0.5;
+}
+
+.button-captcha__grey {
+  background-color: $button-grey;
+  width: 100%;
+  border-radius: 10px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+
+  transition: 0.5s;
+}
+
+.button-captcha__grey:hover {
+  opacity: 0.7;
+}
+
+.button-captcha__grey:active {
+  opacity: 0.5;
+}
