@@ -367,6 +367,7 @@ input {
   padding-top: 12px;
   padding-bottom: 12px;
   border-radius: 10px;
+  text-align: center;
   cursor: pointer;
   transition: 0.5s;
 }
@@ -385,6 +386,7 @@ input {
   padding-top: 12px;
   padding-bottom: 12px;
   border-radius: 10px;
+  text-align: center;
   cursor: pointer;
   transition: 0.5s;
 }
